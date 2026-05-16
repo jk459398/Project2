@@ -1,0 +1,2 @@
+comparison_group,n_blocks,n_unique_sites,n_unique_experiments,total_nodes,mean_relative_risk,median_relative_risk,mean_risk_difference,mean_exposed_jump_rate,mean_unexposed_jump_rate,mean_spatial_edges,mean_temporal_edges
+WT,6,1,6,1924988,1.7120756526412428,1.7178856602780805,0.05244710235595462,0.1262643085557017,0.07381720619974706,2006115.3333333333,319249.8333333333

@@ -1,0 +1,20 @@
+{
+  "exp_id": 1,
+  "site_id": 17,
+  "mutation": "PTEN_del",
+  "signal_col": "ERKKTR_ratio",
+  "spatial_radius": 60.0,
+  "future_window_frames": 3,
+  "jump_threshold": 0.07408930000000005,
+  "n_nodes": 211139,
+  "n_spatial_edges": 830047,
+  "n_temporal_edges": 210145,
+  "n_tracks": 994,
+  "n_frames": 258,
+  "n_exposed_nodes": 56325,
+  "n_unexposed_nodes": 154814,
+  "future_jump_rate_if_neighbor_jumps_now": 0.12740346205059921,
+  "future_jump_rate_if_no_neighbor_jumps_now": 0.08098750758975286,
+  "risk_difference": 0.046415954460846356,
+  "relative_risk": 1.5731248663185091
+}

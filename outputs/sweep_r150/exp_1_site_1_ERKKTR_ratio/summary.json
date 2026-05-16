@@ -1,0 +1,20 @@
+{
+  "exp_id": 1,
+  "site_id": 1,
+  "mutation": "WT",
+  "signal_col": "ERKKTR_ratio",
+  "spatial_radius": 150.0,
+  "future_window_frames": 3,
+  "jump_threshold": 0.036542799999999986,
+  "n_nodes": 356632,
+  "n_spatial_edges": 14339412,
+  "n_temporal_edges": 354834,
+  "n_tracks": 1798,
+  "n_frames": 258,
+  "n_exposed_nodes": 332701,
+  "n_unexposed_nodes": 23931,
+  "future_jump_rate_if_neighbor_jumps_now": 0.09978629460085783,
+  "future_jump_rate_if_no_neighbor_jumps_now": 0.07513267310183444,
+  "risk_difference": 0.024653621499023393,
+  "relative_risk": 1.3281344917091928
+}

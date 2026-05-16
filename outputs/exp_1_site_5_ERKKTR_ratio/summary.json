@@ -1,0 +1,20 @@
+{
+  "exp_id": 1,
+  "site_id": 5,
+  "mutation": "AKT1_E17K",
+  "signal_col": "ERKKTR_ratio",
+  "spatial_radius": 60.0,
+  "future_window_frames": 3,
+  "jump_threshold": 0.022628000000000082,
+  "n_nodes": 448311,
+  "n_spatial_edges": 3863383,
+  "n_temporal_edges": 446302,
+  "n_tracks": 2009,
+  "n_frames": 258,
+  "n_exposed_nodes": 224573,
+  "n_unexposed_nodes": 223738,
+  "future_jump_rate_if_neighbor_jumps_now": 0.15527245038361692,
+  "future_jump_rate_if_no_neighbor_jumps_now": 0.09638952703608686,
+  "risk_difference": 0.058882923347530064,
+  "relative_risk": 1.6108850739093796
+}

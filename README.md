@@ -1,0 +1,165 @@
+# Spatiotemporal Signal Propagation Analysis
+
+## Project Description
+
+This project investigates spatiotemporal signal propagation in epithelial cell populations using graph-based analysis of single-cell signaling dynamics.
+
+The analysis focuses on how different PI3K-AKT pathway mutations influence intercellular signaling coordination, propagation timescales, and robustness of the Relative Risk (RR) metric across different analytical parameters.
+
+---
+
+## Repository Structure
+
+```text
+repo-root/
+│
+├── notebooks/
+│   ├── TaskA1_MutationComparison.ipynb
+│   ├── TaskA2_LaggedExposure.ipynb
+│   ├── TaskA3_ParameterRobustness.ipynb
+│   └── TaskB_IndependentResearch.ipynb
+│
+├── outputs/
+│   ├── mutations_comparison_table.csv
+│   ├── mutations_barplot.png
+│   ├── lagged_exposure_table.csv
+│   └── additional output files
+│
+├── scripts/
+│
+└── README.md
+```
+
+---
+
+## Environment Setup
+
+- Python 3.12 or newer is recommended.
+- Install the required scientific Python packages manually if needed.
+
+Suggested packages:
+
+```bash
+pip install pandas numpy matplotlib seaborn scipy networkx jupyter nbconvert
+```
+
+Optional: create a virtual environment before installation.
+
+```bash
+python -m venv venv
+
+# Linux / macOS
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+```
+
+---
+
+## Reproducing the Analysis
+
+All analyses can be executed directly inside Jupyter Notebook / VS Code or from the terminal using `nbconvert`.
+
+---
+
+## Task A1 — Multi-Mutation Spatiotemporal Comparison
+
+Research question:
+
+> Do different PI3K-AKT pathway mutations alter the strength of spatiotemporal signal propagation?
+
+Run:
+
+```bash
+jupyter nbconvert --to notebook --execute notebooks/TaskA1_MutationComparison.ipynb
+```
+
+Outputs:
+
+- `mutations_comparison_table.csv`
+- `mutations_barplot.png`
+
+This notebook:
+
+- compares WT and mutant cell lines,
+- computes Relative Risk (RR),
+- performs Mann–Whitney U statistical testing,
+- applies Bonferroni correction,
+- generates comparison visualizations.
+
+---
+
+## Task A2 — Lagged Exposure Analysis
+
+Research question:
+
+> Do different mutations exhibit different spatiotemporal relay timescales?
+
+Run:
+
+```bash
+jupyter nbconvert --to notebook --execute notebooks/TaskA2_LaggedExposure.ipynb
+```
+
+Outputs:
+
+- `lagged_exposure_table.csv`
+- `lagged_exposure_plot.png`
+
+This notebook:
+
+- computes lagged Relative Risk RR(τ),
+- evaluates propagation delays across mutations,
+- identifies optimal lag τ*,
+- visualizes signaling propagation timescales.
+
+---
+
+## Task A3 — Parameter Robustness Assessment
+
+Research question:
+
+> How sensitive is the Relative Risk metric to parameter selection?
+
+Run:
+
+```bash
+jupyter nbconvert --to notebook --execute notebooks/TaskA3_ParameterRobustness.ipynb
+```
+
+Outputs:
+
+- `parameter_robustness_radius.png`
+- `parameter_sweep_results.csv`
+
+This notebook:
+
+- evaluates RR stability across parameter sweeps,
+- compares different spatial radii or temporal windows,
+- recommends biologically meaningful parameters.
+
+---
+
+## Part B — Independent Research
+
+The repository also contains an independent research notebook:
+
+```bash
+jupyter nbconvert --to notebook --execute notebooks/TaskB_IndependentResearch.ipynb
+```
+
+Possible topics include:
+
+- ERK vs AKT propagation comparison,
+- spatial heterogeneity analysis,
+- dose-response extensions,
+- original graph-based propagation research questions.
+
+---
+
+## Notes
+
+- All analyses should be reproducible directly from the notebooks.
+- Outputs are saved into the `outputs/` directory.
+- Figures and tables generated in the notebooks are used in the final PDF report.

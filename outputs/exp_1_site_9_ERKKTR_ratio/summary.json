@@ -1,0 +1,20 @@
+{
+  "exp_id": 1,
+  "site_id": 9,
+  "mutation": "PIK3CA_E545K",
+  "signal_col": "ERKKTR_ratio",
+  "spatial_radius": 60.0,
+  "future_window_frames": 3,
+  "jump_threshold": 0.04605350000000008,
+  "n_nodes": 326279,
+  "n_spatial_edges": 1995173,
+  "n_temporal_edges": 324347,
+  "n_tracks": 1932,
+  "n_frames": 258,
+  "n_exposed_nodes": 126377,
+  "n_unexposed_nodes": 199902,
+  "future_jump_rate_if_neighbor_jumps_now": 0.1399067868362123,
+  "future_jump_rate_if_no_neighbor_jumps_now": 0.08602215085391841,
+  "risk_difference": 0.053884635982293885,
+  "relative_risk": 1.6264041929595554
+}
