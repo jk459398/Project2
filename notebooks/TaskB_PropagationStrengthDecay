@@ -13,7 +13,7 @@
    "id": "e0e4b409",
    "metadata": {},
    "source": [
-    "### Introductio:\n",
+    "### Introduction:\n",
     "*How does propagation strength decrease with graph distance? Does the decay differ in WT vs mutants?*\n",
     "\n",
     "The biological motivation behind the idea is to test how propagation strength changes with neighbour distance and it may reveal whether mutant cell lines exhibit broader or more persistent spatial coordination compared to WT cells."
