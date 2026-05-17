@@ -17,7 +17,7 @@ repo-root/
 │   ├── TaskA1_MutationComparison.ipynb
 │   ├── TaskA2_LaggedExposure.ipynb
 │   ├── TaskA3_ParameterRobustness.ipynb
-│   └── TaskB_IndependentResearch.ipynb
+│   └── TaskB_PropagationStrengthDecay.ipynb
 │
 ├── outputs/
 │   ├── mutations_comparison_table.csv
@@ -145,16 +145,23 @@ This notebook:
 
 The repository also contains an independent research notebook:
 
+Research question:
+> How does propagation strength decrease with graph distance? Does the decay differ in WT vs mutants?
+
+Run: 
+
 ```bash
-jupyter nbconvert --to notebook --execute notebooks/TaskB_IndependentResearch.ipynb
+jupyter nbconvert --to notebook --execute notebooks/TaskB_PropagationStrengthDecay.ipynb
 ```
 
-Possible topics include:
+This notebook: 
 
-- ERK vs AKT propagation comparison,
-- spatial heterogeneity analysis,
-- dose-response extensions,
-- original graph-based propagation research questions.
+- defines graph distances (d) as shortest-path steps in the cell neighbor graph
+- detects whether neighbors at distance d show jump events
+- measures whether this exposure increases probability of future jump
+- computes propagation strength using Relative Risk (RR)
+- compares RR decay across distances for WT vs mutants
+- visualizes how signaling propagation decreases with graph distance
 
 ---
 
