@@ -42,7 +42,7 @@ repo-root/
 │   ├── 01-readme-experiment-description_2022-04-05.csv
 │   └── __pycache__/
 │
-├── Project2Report.pdf
+├── Project_two-1.pdf
 │
 └── README.md
 ```
