@@ -20,12 +20,29 @@ repo-root/
 │   └── TaskB_PropagationStrengthDecay.ipynb
 │
 ├── outputs/
+│   ├── comparison_mutation_ERKKTR_ratio/
+│   ├── exp_1_site_1_ERKKTR_ratio/
+│   ├── exp_1_site_5_ERKKTR_ratio/
+│   ├── exp_1_site_9_ERKKTR_ratio/
+│   ├── exp_1_site_13_ERKKTR_ratio/
+│   ├── exp_1_site_17_ERKKTR_ratio/
+│   ├── sweep_r30/
+│   ├── sweep_r90/
+│   ├── sweep_r150/
 │   ├── mutations_comparison_table.csv
-│   ├── mutations_barplot.png
 │   ├── lagged_exposure_table.csv
-│   └── additional output files
+│   ├── lagged_exposure_analysis.png
+│   ├── lagged_exposure_plot_AKT_PTEN.png
+│   ├── parameter_robustness_radius.png
+│   └── A3_full_parameter_sweep_r.csv
 │
 ├── scripts/
+│   ├── compare_spatiotemporal_behavior.py
+│   ├── spatiotemporal_signal_propagation.py
+│   ├── 01-readme-experiment-description_2022-04-05.csv
+│   └── __pycache__/
+│
+├── Project2Report.pdf
 │
 └── README.md
 ```
